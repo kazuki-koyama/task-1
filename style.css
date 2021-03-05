@@ -52,3 +52,17 @@ main {
 .title {
   margin: 15px 0 5px;
 }
+
+@media screen and (max-width: 768px) {
+  main {
+    display: block;
+    width: 100%;
+  }
+  .box {
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+  .step-img1 {
+    height: 150px;
+  }
+}
